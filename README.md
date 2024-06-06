@@ -1,5 +1,5 @@
 
-# QuokkaIO Demo Script
+# Quokka.io Demo Script
 
 This script demonstrates the basic usage of the QuokkaIO API for mobile security analysis. It includes functionalities such as pushing a scan, waiting for its completion, retrieving results, and downloading a PDF report. The results are also parsed and saved to a CSV file.
 
@@ -129,6 +129,4 @@ if __name__ == "__main__":
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgements
 
-- [QuokkaIO](https://quokka.io) for providing the API and tools for mobile security analysis.
