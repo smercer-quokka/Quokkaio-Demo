@@ -1,7 +1,7 @@
 
 # Quokka.io Demo Script
 
-This script demonstrates the basic usage of the QuokkaIO API for mobile security analysis. It includes functionalities such as pushing a scan, waiting for its completion, retrieving results, and downloading a PDF report. The results are also parsed and saved to a CSV file.
+This script demonstrates the basic usage of the Quokka.io API for mobile security analysis. It includes functionalities such as pushing a scan, waiting for its completion, retrieving results, and downloading a PDF report. The results are also parsed and saved to a CSV file.
 
 ## Requirements
 
@@ -19,7 +19,7 @@ This script demonstrates the basic usage of the QuokkaIO API for mobile security
     pip install quokkaio
     ```
 
-2. Set up your environment variable for the QuokkaIO API key:
+2. Set up your environment variable for the Quokka.io API key:
     ```sh
     export QUOKKA_API_KEY='your_api_key_here'
     ```
@@ -46,7 +46,7 @@ This script demonstrates the basic usage of the QuokkaIO API for mobile security
 
 ### Initialization
 
-The script initializes the QuokkaIO client using an API key stored in an environment variable.
+The script initializes the Quokka.io client using an API key stored in an environment variable.
 
 ```python
 api_key = os.getenv('QUOKKA_API_KEY', 'default_api_key')
@@ -98,7 +98,7 @@ def parse_results(data):
 
 ### Main Function
 
-The `quokkaio_demo` function demonstrates the primary workflow of interacting with the QuokkaIO API.
+The `quokkaio_demo` function demonstrates the primary workflow of interacting with the Quokka.io API.
 
 ```python
 def quokkaio_demo():
