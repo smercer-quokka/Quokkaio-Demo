@@ -1,0 +1,2 @@
+message_text,level,rule_id,threat_level,family_name,threat_types
+Malicious behavior detected,error,malware/malicious,78,Generic,"Trojan: 12, Dropper: 0, Malware: 62, Spyware: 4, Infostealer: 0, Backdoor: 0, Ransomware: 0, PUA: 0, Hacktool: 0, Dialer: 0, Adware: 0, Downloader: 0"
